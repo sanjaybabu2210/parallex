@@ -133,7 +133,7 @@ body::-webkit-scrollbar {
 	text-decoration: none;
 	color:white;
 	margin-bottom: 20%;
-	left:20px;
+	left:18px;
 	padding-bottom: 100px;
 	z-index: 2;
 	position: fixed;
@@ -184,6 +184,7 @@ section h1{
 #sidenav{
 	height: 100%;
 	width: 20%;
+	z-index:1;
 	overflow-y: hidden;
 	animation-name: example;
   	animation-duration: 4s;
@@ -196,7 +197,7 @@ section h1{
 #sidenav-l1{
 	height: 110%;
 	width: 200px;
-	
+	z-index:1;
 	position: fixed;
 
 	top: 100;
@@ -209,7 +210,7 @@ section h1{
 #sidenav-l2{
 	height: 110%;
 	width: 200px;
-
+    z-index:1;
 	position: fixed;
 	top: 100;
 	left: -100px;
