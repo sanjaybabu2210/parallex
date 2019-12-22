@@ -5,6 +5,7 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+	   "start": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -14,6 +15,7 @@
   "license": "ISC",
   "dependencies": {
     "ejs": "^3.0.1",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "scroll-js": "^3.1.0"
   }
 }

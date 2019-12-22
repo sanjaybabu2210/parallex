@@ -21,6 +21,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     background: #1b1b1bfd;
 	overflow-y:scroll;
+	
 	scroll-behavior: smooth;
 	scroll-snap-type: y mandatory;
 }
@@ -97,7 +98,6 @@ body::-webkit-scrollbar {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    /*background-size: cover;*/
     scroll-snap-align: center;
 }
 
