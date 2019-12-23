@@ -18,7 +18,7 @@
     <title></title>
 </head>
 <body>
-  <div id="container cont1" id="maincontainer" >
+  <div id="container cont1" class="contain" id="maincontainer" >
   <nav id="sidenav" class="sidenavbar">
    
     <div id="sidenav-l1">
@@ -44,17 +44,19 @@
         
       </div>
     </div>
-  </nav>
-   <div class="sidenavi">
+  </nav><div class="contain"> 
+	  <nav class="sidenavi">
      <ul>
-          <li><a  style="top: 60px;" href="#home">Home</a></li>
-            <li><a  style="top: 150px;" href="#schedule">Tracks</a></li>
-          <li><a style="top: 240px;" href="#tracks">Schedule</a></li>
-          <li><a style="top: 330px;" href="#sponsors">Sponsors</a></li>
-          <li><a style="top: 420px;" href="#faq">FAQ</a></li>
+          <li><a id="a1" style="top: 60px;" href="#home">Home</a></li>
+            <li><a id="a2"  style="top: 150px;" href="#tracks">Tracks</a></li>
+          <li><a id="a3" style="top: 240px;" href="#schedule">Schedule</a></li>
+          <li><a id="a4" style="top: 330px;" href="#sponsors">Sponsors</a></li>
+          <li><a id="a5" style="top: 420px;" href="#faq">FAQ</a></li>
         </ul>
-  </div> 
-      <div style="height: 100%;top:-180px;" id="bg-vanta" class="parallax">
+  </nav> 
+	  </div>
+   
+      <div style="height: 100%;top:-120px;" id="bg-vanta" class="parallax">
         <div id="scene">
             <div data-depth="0.2">
                 <div id="parallax-logo">
@@ -102,9 +104,9 @@
             </p>
         </div>
   </section>
-    <section id="tracks" style="margin-top: -5%;margin-left: 10%;" class="tracks ">
+    <section id="tracks" style="margin-top: -10%;margin-left: 10%;" class="tracks ">
             <div style="margin-bottom:-3%;" class="container" id="title">
-                <h1 style="margin-left: %;">TRACKS</h1>
+                <h1 style="">TRACKS</h1>
                 <hr>
             </div>
             <div  class="container" id="ind-tracks">
@@ -263,16 +265,17 @@
 </div>
 
 
-  <section id="schedule" style="margin-top:-10%;margin-left:10%;margin-bottom: 30%;" class="schedule ">
-            <div style="margin-bottom:-3%;" class="container" id="title">
+  <section id="schedule" style="margin-left:5%;margin-top:0%;margin-bottom:20%;" class="schedule">
+            <div style="" class="container" id="title">
                 <h1>SCHEDULE</h1>
                 <hr>
-            </div>
+	
+			
 
-            <div class="container">
+           
                <div class="mark1">
-            
-                   </div>
+				</div>
+                 
                       <p class="stage1" >20th FEB, 2020  </p>
                         <p id="content"  >lorem ipfsf  fdsfsdfsdfsdf
                       fdsfsdfdsfsdfsdfsdf
@@ -281,6 +284,7 @@
                     fsdhfks fshkjfs sdfhkhfsd
                     fsdkjfhsdkjfh fshdhfk
                   fsdfsdfsdfsdfsf</p>
+					<p class="stage4">21th FEB, 2020</p>
                     
 
 
@@ -289,17 +293,17 @@
                    <div class="mark2">
                   
                    </div>
-                     <p class="stage2">21th FEB, 2020</p>
+                     <p class="stage2"></p>
+			
                      <div class="path2">
                    </div>
                     <div class="mark3">
                       
                    </div>
                    <p class="stage3">22th FEB, 2020</p>
-
-</div>
-            </section>
-         
+				</div> 
+ </section>
+         		
 
 
 
@@ -336,7 +340,7 @@
         <!-- </div> -->
   </section>
 <!--155 3 10 3  -->
-          <section id="faq"  style="margin-top:10%;margin-left:10%;" class="faq">
+<section id="faq"  style="margin-top:20%;margin-left:10%;" class="faq">
             <div  class="container" id="faq">
                           <h1>FAQ</h1>
                           <hr>
@@ -397,6 +401,26 @@
                     </div>
             </div>
           </section>
+<section id="meet"  style="margin-top:0%;margin-left:10%;" class="meet">
+            <div  class="container" id="meet">
+                          <h1>Meet the Team</h1>
+                          <hr>
+            </div>
+            <div style="margin-left: 10%;" class="row">
+                          <div class="col-lg-3">
+				</div>
+				  <div class="col-lg-3">
+					  
+					  
+				</div>
+				  <div class="col-lg-3">
+				</div>
+				  <div class="col-lg-3">
+				</div>
+                             
+
+            </div>
+          </section>
 
 
 
@@ -415,6 +439,7 @@
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 <script type="text/javascript" src="stylesheets/js/main.js"></script> 
+	<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
         <script src="./js/three.r92.min.js"></script>
         <script src="./js/vanta.net.min.js"></script>
